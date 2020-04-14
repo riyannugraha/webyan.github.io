@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="41px" height="31px" viewBox="0 0 41 31" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="Group-2" transform="translate(3 3)">
+    <path d="M0 1L26 1" transform="translate(0 11)" id="Line" fill="none" stroke="#E22A1C" stroke-width="6" />
+    <path d="M12 0L24 18L0 18L12 0Z" transform="matrix(1.07231E-07 1 -1 1.07231E-07 35 0)" id="Triangle" fill="#E22A1C" stroke="none" />
+  </g>
+</svg>

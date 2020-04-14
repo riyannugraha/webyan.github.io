@@ -1,0 +1,446 @@
+@font-face{
+	font-family: exo;
+  	src: url(../font/exo3.ttf);
+}
+
+.actives{
+	color: #e22a18 !important;
+}
+
+.bungkus{
+	overflow: hidden;
+	width: 100%;
+	height: 100vh;
+}
+
+header{
+	min-height: 100vh;
+	width: 100%;
+	background: rgba(6, 6, 6, .9);
+	overflow: hidden;
+	display: block; /*<<<<<<<<<<<<<<<<<<<<<<<<< block later*/
+}
+
+/* Toggle Kanan */
+	.kotak{
+		width: 35px;
+		height: 35px;
+		background: #e22a18;	
+	}
+
+	.kotak .garis1, .kotak .garis2{
+		width: 60%;
+		height: 3px;
+		background: white;	
+		border-radius: 5px;
+	}
+
+	.kotak .garis1{
+		position: relative;
+		margin-bottom: 3px;
+		margin: auto;
+		top: 35%;
+	}
+
+	.kotak .garis2{
+		position: relative;
+		margin-bottom: 3px;	
+		margin: 50% auto;	
+	}
+
+	header ul li a{
+		font-family: exo;
+	}
+
+	header .navbar{
+		position: relative;
+		z-index: 999;	
+	}
+
+	header .content{
+		height: 500px;	
+	}
+
+	header  .content .lang{
+		min-height: 100vh;
+		background: #383636;
+		margin-top: -122px;
+		font-family: exo;
+		transition: 1s cubic-bezier(1,.79,.98,.37);
+	}
+
+	header .content .lang p{
+		cursor: pointer;
+		position:relative;	
+		top: -30px;
+	}
+
+	header .content .active-lang{
+		color: #e22a18;
+	}
+
+	header .content #name{
+		color: white !important; 	
+	}
+	header .content #name h1{
+		font-size: 120px !important;
+		margin: 50px;
+		font-family: exo;
+	}
+
+	header .content #name h1 span{
+		margin-left: 20px;
+		position: relative;
+		top: -20px;	
+	}
+
+	header .content .cards #triangle{
+		transform: rotate(-20deg);
+		position: relative;
+		left: -30px;
+		opacity: .3;
+	}
+
+	header .content .cards #ellipse{
+		position: relative;
+		left: 50px;
+		top: 10px;
+		opacity: .8;
+	}
+
+	header .content .cards #hr{
+		width: 60px;
+		height: 2px;
+		background: red;
+		position: absolute;
+		margin: 13px 20px;
+	} 
+
+	header .content .cards h2, header .content .cards #intro{
+		color: white;
+		font-family: exo;
+	}
+
+	.cap{
+		color: #e22a18 !important;
+	}
+	.cap1{
+		color: #c7c4c7 !important;
+	}
+
+
+.isi{
+	/*min-height: 85.5vh;*/
+	min-height: 100vh;
+	width: 100%;
+	background: #1e1e1e;
+	display: none; /*<<<<<<<<<<<<<<<<<<<<<<<<< none later*/ 	
+	position: absolute;
+	color: white;
+	overflow: hidden;
+}
+
+#about-section .row{
+	margin-top: 140px;
+	font-family: exo;
+}
+
+#about-section .row #hi{
+	font-size: 30px;
+	color: #e22a18;
+}
+
+#about-section .row h1{
+	font-size: 50px;
+}
+
+#about-section .row #myp{
+	width: 80%;
+}
+
+#about-section .cardss{
+	position: relative;
+	z-index: 9999;
+}
+
+#about-section .row .sosmed button{
+	width: 140px;
+	background: #e22a18;
+}
+
+#about-section .row .sosmed a{
+	font-size: 30px !important;	
+	position: relative;
+	top: 8px;
+	transition: 1s;
+}
+
+#about-section .row .sosmed a:hover{
+	color: #e22a18 !important;
+}
+
+#about-section .row #dcv{
+	text-decoration: none;
+	color: #e22a18 !important;
+	position: relative;
+	left: 20px;	
+	top: 20px;
+	transition: .6s;
+}
+
+#about-section .row #dcv:hover{
+	color: white !important;
+}
+
+.img-character{
+	width: 300px;
+	height: 400px;
+	/*background: #3d3d3d;*/
+	background: #4f4b4b;
+	margin-left: 50px;
+	/*overflow: hidden;*/
+	position: relative;
+	z-index: 1;
+}
+
+.cover-character{
+	width: 300px;
+	height: 400px;
+	background: transparent;
+	position: relative;
+	top: -347px;
+	overflow: hidden; 
+	
+}
+
+.img-character img{
+	margin-top: -40px;
+	right: 40px;	
+	filter: grayscale(1);
+	position: relative;
+	z-index: 99;
+}
+
+.shape-kotak1{
+	position: relative;
+	z-index: -1;	
+
+}
+.shape-kotak1 img{
+	position: absolute;
+	top: -460px;
+	left: 15px;
+	filter: grayscale(0);
+}
+
+.shape-segitiga img{
+	position: relative;
+	top: -30px;
+	left: -35px;
+	transform: rotate(-40deg);	
+	display: block;
+}
+
+.shape-segitiga{
+	position: relative;
+	z-index: 1;
+}
+
+.shape-kotak img{
+	position: relative;
+	left: 220px;
+	top: -20px;
+	z-index: -1;
+}
+
+.shape-kotak1{
+	position: relative;
+	z-index: 1;
+}
+.shape-kotak1 img{
+	position: relative;
+	margin-top: 100px;
+}
+
+.shape-lingkaran img{
+	position: relative;
+	left: -800px;
+	top: 50px;
+}
+
+.shape-lingkaran1 img{
+	position: relative;
+	left: -400px;
+	top: 400px;
+}
+
+.aw{
+	width: 100%;
+	min-width: 100vh;
+
+}
+
+.bungkus{
+	display: flex;
+}
+
+
+
+
+
+.works-section{
+	/*min-height: 85.5vh;*/
+	min-height: 100vh;
+	width: 100%;
+	display: none; /*<<<<<<<<<<<<<<<<<<<<<<<<< none later*/ 	
+	position: absolute;
+	color: white;
+	overflow: hidden;
+	background: #1E1E1E;
+}
+
+.works-section-content{
+	margin-top: 140px;
+	font-family: exo;
+	color: #E22A1A !important;
+	position: relative;	
+	z-index: -1;
+}
+
+
+.right-work-section{
+	width: 50%;
+	min-height: 100vh;
+	background: blue;
+	display: block;
+	position: absolute;
+	right: 0;
+	background: #3f3f3f;
+	z-index: 99;	
+}
+.right-work-section1{
+	width: 50%;
+	min-height: 100vh;
+	background: orange;
+	display: block;
+	position: absolute;
+	left: 0;
+	background: #3f3f3f;
+	z-index: 99;
+}
+
+.owl-container{
+	width: 100%;
+	margin-top: 50px;
+	position: relative;
+}
+
+.item{
+	background: #383838;
+	height: 250px;	
+	cursor: pointer;
+	display: flex;
+	overflow: hidden;	
+}
+
+.item .title{
+	width: 100%;
+	height: 100%;
+	/*background: rgba(226, 42, 26, 0.5);*/
+	background: rgba(30, 30, 30, 0.5);
+	transform: scale(0);
+	transition: 0.5s;
+	position: absolute;
+	text-align: center;	
+	color: white
+}
+
+.item .title .titles{
+	position: relative;
+	top: 50px;
+	font-size: 20px;
+}
+
+.item .title .btn-demo,
+.item .title .btn-download{
+	background: #E22A1A;
+	color: white;
+	width: 120px;
+	height: 35px;	
+	font-size: 15px !important;
+	transition: 1s;
+	position: relative;
+	margin-top: 120px;
+}
+
+.item .title .btn-demo p,
+.item .title .btn-download p{
+	position: relative;
+	top: -3px;
+}
+
+.item .title .btn-demo:hover,
+.item .title .btn-download:hover {
+	background: transparent;
+	border: 2px solid #E22A1A;
+	color: #E22A1B !important;
+}
+
+.item:hover .title{
+	transform: scale(1);
+}
+
+.item:hover{
+	background: #E22A1B;	
+}
+
+.item img{
+	transition: 1s;
+}
+
+.item:hover img{
+	transform: scale(0.9) rotate(3deg);
+}
+
+.owl-dots{		
+	position: relative;
+	margin-top: 30px;
+}
+
+.owl-dot.active span{	
+	background: red !important;
+	transform: scale(1.5);
+}
+
+.owl-nav{
+	position: absolute;
+	right: 0;
+}
+
+.owl-nav button:hover{
+	background: #383838 !important;
+	transition: 1s ease-in;
+	outline: none;
+}
+
+.shape{
+	position: relative;
+}
+
+.shape1 img.segitiga{
+	position: absolute;
+	top: -380px;
+	left: 1050px;
+	transform: rotate(40deg);
+}
+
+.shape1 img.triangle{
+	position: absolute;
+	left: 500px;
+	top: -50px;
+	transform: rotateX(150deg) rotate(60deg);
+}
+
+
+
+

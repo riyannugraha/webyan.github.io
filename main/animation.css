@@ -1,0 +1,159 @@
+.anim{
+	animation: ate 1s linear forwards;
+}
+
+@keyframes ate{
+	0%{
+		opacity: 1;
+		position: relative;
+		left: 0;		
+	}50%{
+		opacity: 0;
+		position: relative;
+		/*transition: cubic-bezier(.11,.79,.98,.37);*/
+		left: 40px;
+	}100%{
+		opacity: 1;
+		position: relative;
+		left: 0;
+	}
+}
+
+
+
+.animation-h1-home{
+	animation: animation-home-hone 1s linear forwards;
+}
+
+@keyframes animation-home-hone{
+	0%{
+		opacity: 1;
+		position: relative;
+		left: -2000px;		
+	}50%{
+		opacity: 0;
+		position: relative;
+		/*transition: cubic-bezier(.11,.79,.98,.37);*/
+		left: 40px;
+	}100%{
+		opacity: 1;
+		position: relative;
+		left: 0;
+	}
+}
+
+
+.langa{
+	animation: lang 3s cubic-bezier(0, 0, 0.6, 1.3) forwards;
+}
+
+@keyframes lang{
+	0%{
+		position: relative;
+		margin-top: -1000px;		
+	}50%{
+		position: relative;
+		margin-top: -800px;
+		opacity: 0;
+	}100%{
+		position: relative;
+		margin-top: -122px;
+		opacity: 1;
+	}
+}
+
+.anim1{
+	animation: ates 2s linear forwards;
+}
+
+@keyframes ates{
+	0%{
+		opacity: 1;
+		position: relative;
+		left: -1000px;		
+	}50%{
+		opacity: 0;
+		position: relative;
+		/*transition: cubic-bezier(.11,.79,.98,.37);*/
+		left: 40px;
+	}100%{
+		opacity: 1;
+		position: relative;
+		left: 0;
+	}
+}
+
+
+
+.right-work-section-animation{
+	animation: work-section 2s linear forwards;
+}
+
+@keyframes work-section{
+	0%{
+		position: absolute;
+		margin-top: -1000px;
+		opacity: 1;		
+		z-index: 999;
+	}50%{
+		position: absolute;
+		margin-top: -20px;	
+		opacity: 1;			
+		z-index: 999;
+	}75%{
+		position: absolute;
+		margin-top: 0;		
+		opacity: 1;
+		z-index: 999;
+			
+	}100%{
+		opacity: 0;
+		z-index: -1;
+	}
+}
+
+.right-work-section-animation1{
+	animation: work-sections 2s linear forwards;
+}
+
+@keyframes work-sections{
+	0%{
+		position: absolute;
+		margin-top: 1000px;
+		opacity: 1;		
+		z-index: 999;
+	}50%{
+		position: absolute;
+		margin-top: 20px;	
+		opacity: 1;			
+		z-index: 999;
+	}75%{
+		position: absolute;
+		margin-top: 0;		
+		opacity: 1;
+		z-index: 999;
+			
+	}100%{
+		opacity: 0;
+		z-index: -1;
+	}
+}
+
+
+.works{	
+	animation: work 2s linear forwards;	
+}
+
+@keyframes work{
+	0%{
+		opacity: 0;		
+	}20%{
+		opacity: 0;		
+	}75%{
+		opacity: 0;		
+	}100%{
+		position: relative;
+		opacity: 1;
+		z-index: 999;
+	}
+}
